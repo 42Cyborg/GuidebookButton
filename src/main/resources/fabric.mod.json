@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "guidebookbutton",
+  "version": "${version}",
+  "name": "GuidebookButton",
+  "description": "This is an addon for the mod Patchouli which adds a button in the inventory screen",
+  "authors": [
+    "42Cyborg",
+    "Globox_Z"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/guidebookbutton"
+  },
+  "license": "MIT",
+  "icon": "assets/patchoulibutton/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.guidebookbutton.GuidebookButtonMain"
+    ],
+    "client": [
+      "net.guidebookbutton.GuidebookButtonClient"
+    ]
+  },
+  "mixins": [
+    "guidebookbutton.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17",
+    "patchouli": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

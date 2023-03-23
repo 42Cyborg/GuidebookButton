@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.guidebookbutton.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "net.guidebookbutton.mixin.GuidebookButtonMixinPlugin",
+  "mixins": [
+    "access.BookRegistryAccessor",
+    "compat.BiomepediaInventoryConfigMixin"
+  ],
+  "client": [
+    "client.InventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

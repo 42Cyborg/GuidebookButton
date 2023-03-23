@@ -1,0 +1,11 @@
+{
+    "text.autoconfig.guidebookbutton.title": "GuidebookButton Config",
+    "text.autoconfig.guidebookbutton.option.bookIdentifier": "Book Identifier",
+    "text.autoconfig.guidebookbutton.option.posX": "Button Pos X",
+    "text.autoconfig.guidebookbutton.option.posY": "Button Pos Y",
+    "text.autoconfig.guidebookbutton.option.openAllBooksScreen": "Open All Books Screen",
+    
+    "screen.guidebookbutton": "Modpack Books",
+    "screen.guidebookbutton.title": "Modpack Books",
+    "screen.guidebookbutton.book_name": "%s"
+}
